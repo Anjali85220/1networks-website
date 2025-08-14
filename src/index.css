@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* dotted spiral-ish subtle background utility */
+.bg-dots {
+  background: radial-gradient(currentColor 1px, transparent 1px);
+  background-size: 12px 12px;
+  color: rgba(225, 6, 0, .22); /* brand red with low opacity */
+}
